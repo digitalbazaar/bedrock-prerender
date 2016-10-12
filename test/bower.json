@@ -1,0 +1,23 @@
+{
+  "name": "bedrock-prerender-test",
+  "version": "0.0.1-0",
+  "moduleType": [
+    "amd"
+  ],
+  "main": "./main.js",
+  "ignore": [
+    "bower_components",
+    "lib",
+    "node_modules",
+    "package.json"
+  ],
+  "dependencies": {
+    "bedrock-angular": "^2.0.0",
+    "bedrock-angular-alert": "^2.1.0",
+    "bedrock-angular-authn": "^2.1.0",
+    "bedrock-angular-form": "^2.9.2",
+    "bedrock-angular-authn-password": "^1.0.3",
+    "bedrock-angular-identity": "^1.1.6",
+    "bedrock-angular-meta": "digitalbazaar/bedrock-angular-meta#implementation"
+  }
+}

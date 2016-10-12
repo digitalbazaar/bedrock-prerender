@@ -1,0 +1,25 @@
+<br-authn-login br-display-login="$ctrl.showLogin"></br-authn-login>
+<button type="button" class="btn btn-primary" ng-click="$ctrl.navigate('/about')">About Page</button>
+<h1>Create Identity</h1>
+<form name="$ctrl.identityForm">
+  <br-input br-model="$ctrl.sysSlug"
+    br-options="{
+      name: 'slug',
+      label: 'Short Name'
+    }">
+    <br-input-help>
+      Enter a unique short name for this identity.
+    </br-input-help>
+  </br-input>
+  <button ng-click="$ctrl.addIdentity($ctrl.sysSlug)">Create Identity</button>
+</form>
+<h1>Test Data</h1>
+<pre>{{$ctrl.testData | json}}</pre>
+
+<stackable-modal stackable="$ctrl.showLogin">
+  <br-authn-login-modal br-display-order="$ctrl.authentication.displayOrder"
+    br-methods="$ctrl.authentication.methods"
+    br-on-login="$ctrl.onLogin(identity)"
+    br-options="{display: {cancel: true}}">
+  </br-authn-login-modal>
+</stackable-modal>

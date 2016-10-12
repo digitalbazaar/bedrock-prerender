@@ -1,0 +1,29 @@
+{
+  "name": "bedrock-prerender",
+  "version": "0.0.1-0",
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-prerender"
+  },
+  "keywords": [
+    "bedrock"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-prerender/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-prerender",
+  "dependencies": {
+    "phridge": "^2.0.0",
+    "prerender-node": "^2.4.0"
+  },
+  "peerDependencies": {
+    "bedrock": "^1.0.0",
+    "bedrock-redis": "^3.0.0"
+  }
+}
