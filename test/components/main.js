@@ -5,7 +5,8 @@
 define([
   'angular',
   './about-test-component',
-  './test-harness-component'
+  './test-harness-component',
+  './twitter-test-component'
 ], function(angular) {
 
 'use strict';
@@ -43,6 +44,10 @@ module.config(function($routeProvider) {
             .get(identityBaseUri + '/' + identity);
         }
       }
+    })
+    .when('/twitter', {
+      title: 'Twitter Demo',
+      template: '<br-twitter-test></br-twitter-test>'
     });
 });
 

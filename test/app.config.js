@@ -44,3 +44,4 @@ config.views.vars.minify = true;
 config.prerender.routes['/about'] = {cacheTtl: 1000};
 config.prerender.routes['/i/*'] = {};
 config.prerender.routes['/'] = {};
+config.prerender.routes['/twitter'] = {};
