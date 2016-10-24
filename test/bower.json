@@ -18,6 +18,6 @@
     "bedrock-angular-form": "^2.9.2",
     "bedrock-angular-authn-password": "^1.0.3",
     "bedrock-angular-identity": "^1.1.6",
-    "bedrock-angular-meta": "digitalbazaar/bedrock-angular-meta#master"
+    "bedrock-angular-meta": "^1.0.0"
   }
 }
