@@ -20,10 +20,16 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-prerender",
   "dependencies": {
     "phridge": "^2.0.0",
-    "prerender-node": "^2.4.0"
+    "prerender-node": "^2.4.0",
+    "snyk": "^1.41.1"
   },
   "peerDependencies": {
     "bedrock": "^1.0.0",
     "bedrock-redis": "^3.0.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
