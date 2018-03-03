@@ -20,7 +20,7 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-prerender",
   "dependencies": {
     "phridge": "^2.0.0",
-    "prerender-node": "^2.4.0"
+    "prerender-node": "^3.0.0"
   },
   "peerDependencies": {
     "bedrock": "^1.0.0",
